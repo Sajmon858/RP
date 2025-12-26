@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>DOJ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>DEPARTMENT OF JUSTICE</h1>
+
+  <section>
+    <h2>Wyrok</h2>
+    <input id="doj_obywatel" placeholder="Obywatel">
+    <input id="doj_wyrok" placeholder="Wyrok">
+    <input id="doj_grzywna" placeholder="Grzywna">
+    <button onclick="wyslijWyrokDOJ()">Wydać Wyrok</button>
+  </section>
+
+  <section>
+    <h2>Poszukiwania</h2>
+    <input id="doj_posz_obywatel" placeholder="Obywatel">
+    <input id="doj_posz_powod" placeholder="Powód">
+    <button onclick="wyslijPoszDOJ()">Wystaw Poszukiwanie</button>
+  </section>
+
+  <button class="back" onclick="location.href='index.html'">Powrót</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
