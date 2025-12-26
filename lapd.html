@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>LAPD / LASD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>LAPD / LASD</h1>
+
+  <section>
+    <h2>Mandaty</h2>
+    <input id="mandat_obywatel" placeholder="Obywatel">
+    <input id="mandat_kwota" placeholder="Kwota">
+    <input id="mandat_powod" placeholder="Powód">
+    <button onclick="wyslijMandat()">Wystaw Mandat</button>
+  </section>
+
+  <section>
+    <h2>Poszukiwania</h2>
+    <input id="posz_obywatel" placeholder="Obywatel">
+    <input id="posz_powod" placeholder="Powód">
+    <input id="posz_czas" placeholder="Czas">
+    <button onclick="wyslijPoszukiwanie()">Wystaw Poszukiwanie</button>
+  </section>
+
+  <section>
+    <h2>Kod na miasto</h2>
+    <input id="kod_nazwa" placeholder="ZIELONY, POMARAŃCZOWY, CZERWONY">
+    <input id="kod_opis" placeholder="Opis">
+    <button onclick="wyslijKod()">Ustaw Kod</button>
+  </section>
+  
+  <button class="back" onclick="location.href='index.html'">Powrót</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
